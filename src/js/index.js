@@ -1,7 +1,7 @@
 var $ = window.Zepto;
 var $scope = $(document.body);
 var root = window.player;
-var dataUrl = './mock/data.json';
+var dataUrl = '../mock/data.json';
 var render = root.render;
 var control;
 var audiocontrol = new root.audioControl();
